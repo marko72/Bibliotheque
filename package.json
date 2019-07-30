@@ -10,7 +10,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "Bibliotheque"
+    "url": "https://github.com/marko72/Bibliotheque.git"
   },
   "dependencies": {
     "bootstrap": "^4.3.1"
