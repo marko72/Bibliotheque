@@ -28,7 +28,7 @@
             <?php
                 if(isset($_SESSION['user'])):
             ?>
-                    <a href="modules/auth/logout.php"></a>
+                    <a href="modules/auth/logout.php" class="btn btn-warning">Logout</a>
             <?php
                 else:
             ?>

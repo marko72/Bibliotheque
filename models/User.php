@@ -45,7 +45,9 @@ class User
         try{
             $result = $stm->execute();
             if($result){
-                return $result;
+                $user = $stm->fetch();
+                return $user;
+
             }else{
                 return 500;
             }
